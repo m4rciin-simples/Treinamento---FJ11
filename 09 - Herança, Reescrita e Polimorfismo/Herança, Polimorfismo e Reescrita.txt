@@ -1,0 +1,60 @@
+Herança, Reescrita e Polimorfismo 
+
+Vantangens Composição: 
+- a grande vantagem da Composição é que o comportamento pode ser escolhido em tempo de execução em vez de estar amarrado
+ em tempo de compilação; 
+- Os objetos que foram instanciados e estão contidos na classe que os instanciou são acessados somente através de sua 
+interface seguindo o principio de programar para uma interface e não para uma implementação;
+- Apresenta menor dependencia de implementações e temos cada classe focada em apenas uma tarefa seguindo outro principio 
+da responsabilidade unica; 
+- Tem um bom encapsulamento onde os detalhes internos dos objetos instanciados não são visiveis; 
+
+Desvantagem da Composição: 
+- É que um software muito dinamico e parametrizado é mais dificil de entender do que software mais estatico;
+
+Vantagens Herança: 
+- Captura o que é comum e o isola daquilo que é diferente;
+- É vista diretamente no código até mesmo devido a sua natureza estática;
+
+Desvantagens da Herança: 
+- Está o fraco encapsulamento entre as classes e subclasses e o forte acoplamento entre elas onde ao mudar uma superclasse 
+pode afetar todas as subclasses além de violar o principio basico de projeto OO, em que devemos ter sempre um baixo acoplamento
+entre as classes;
+- Algumas vezes um objeto precisa ser de uma classe diferente em momentos diferentes o que não é possivel com a herança, 
+pois o código não pode sofrer alterações facilmente em tempo de execução, portanto tem-se que a herança é um relacionamento 
+estático;
+
+
+Quando usar Composição e quando usar Herança? 
+- Sempre prefira utilizar Composição á Herança; 
+- Pode-se definir algumas regras para identificar quando podemos usar a Herança de forma que não tenhamos os problemas
+que ela acarreta; 
+- Utiliza-se a Herança se uma instancia de uma classe Filha nunca precisar tornar-se um objeto de outra classe;
+--> se a hierarquia de herança representar um relacionamento "É um" e não um relacionamento "Tem um";
+--> se deseja-se ou precisa-se realizar alterações globais para as suas classes filhas alterando uma classe Pai;
+--> ou então quando a classe filha estender ao invés de substituir total ou parcialmente as responsabilidades da classe Pai;
+
+Conclusão: 
+- Herança deve ser pouca utilizada; 
+- Composição é considerada muito superior à Herança na amioria dos casos atutalmente, pois entre as suas principais vantagens 
+a composição permite mudar a associação entre as classes em tempo de execução;
+- Os objetos podem assumir mais de um comportamento, os projetos são mais simples e reutilizáveis, além de descartar os 
+problemas envolvendo a herança como o aclopamento entre as classes e outros problemas discutidos;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

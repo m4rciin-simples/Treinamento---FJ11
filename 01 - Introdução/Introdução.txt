@@ -1,0 +1,64 @@
+"Busco um instante feliz que justifique minha existência" -- Fiodór Dostoiévski 
+
+1.1 O que é realmente importante? 
+
+"Computadores são inúteis, eles apenas dão respostas" -- Picasso 
+
+2.1 Java 
+
+Green Team em 1992. Líder James Gosling. 
+Java 1.0 - thin client ou  terminal burro. 
+
+2.4 Hostpot e Jit
+
+Hostpot é a tecnologia que a JVM utiliza para detectar pontos quentes da sua aplicação: código que é executado muito, provavelmente
+dentro de um ou mais loops. Quando a JVM julgar necessário, ela vai compilar estes códigos para instruções realmente nativas da 
+plataforma, tendo em vista que isso vai provavelmente melhorar a performance da sua aplicação. Esse compilador é o JIT: Just InTime
+Compiler, o compilador que aparece "bem na hora" que você precisa. 
+
+2.5 Versões do Java e a confusão do Java2
+2.6 JVM?JDK?O que devo baixar? 
+
+2.7 Onde usar e os objetivos do Java
+O foco da plataforma é aplicações de médio a grande porte, onde o time de desenvolvedores tem várias pessoas e sempre pode 
+vir a mudar e crescer. 
+
+2.8 Esécificação versus implementação
+Especificação diz como o bytecode deve ser interpretado pela JVM. 
+JVM é uma especificação e não um software. 
+
+Programe voltado à interface, e não à implementação. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+Questões pertinentes e que precisam ser fixadas: 
+
+1 - O que é Herança?
+2 - O que é Polimorfismo?
+3 - O que é Composição? 
+4 - O que é Classe Abstrata? 
+5 - O que é Interface?

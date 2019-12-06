@@ -1,0 +1,33 @@
+Exercicio 01 
+
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    int aux1 = 0;
+    int aux2 = 0;
+    int soma = 0;
+    
+    while(n != 0) {
+        
+        printf("\nDigite um numero: ");
+        scanf("%d",&n);
+        printf("\n");
+        
+        if (n % 2 == 0) {
+            aux1 += n;
+        } else {
+            aux2 += n;
+        }
+    }
+    
+    soma = aux1 + aux2; 
+    printf("\nSoma dos numeros pares: %d", aux1);
+    printf("\nSoma dos numeros impares: %", aux2);
+    printf("\nSoma total: %d", soma);
+    
+}
+
+Exercicio 02 
+

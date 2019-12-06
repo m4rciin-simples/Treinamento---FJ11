@@ -1,0 +1,46 @@
+"Péssima ideia, a de que não se pode mudar" -- Montaigne
+
+3.5 Casting e Programação 
+
+Às vezes,  precisamos que um número quebrado seja arredondado e armazenado num número inteiro. Para fazer isso sem que haja
+o erro de compilação, é preciso ordenar que o número quebrado. Você pode também fazer o curso FJ-11 dessa apostila na Caelum
+seja moldado(casted) como um número inteiro. Esse processo recebe o nome de casting.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
